@@ -1,0 +1,46 @@
+/*!
+ * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.search{
+    width: 972px;
+    margin-top: 30px; 
+  text-align: center;
+  margin: 0 auto;
+}
+  
+.rest .promotions-wrap {
+  margin-left: 44px;
+  margin-top: -96px;
+}
+#offer{
+  text-align:center;
+}
+#card{
+  margin-top: 50px;
+}
+
+.container .card {
+  /* display: inline-block;
+  vertical-align: top;
+  background-color: #fff;
+  width: 355px!important;
+  text-align: center;
+  position: absolute;
+  margin-right: .5%;
+  margin-left: .6%; */
+  box-shadow: 0 1px 10px #c3c3c3;
+}
+
