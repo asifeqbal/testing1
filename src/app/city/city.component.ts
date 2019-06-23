@@ -10,12 +10,25 @@ import {Router, ActivatedRoute } from '@angular/router';
 export class CityComponent implements OnInit {
 
   constructor(private router:Router,private cityservice:CityService,private route:ActivatedRoute) { }
-  pid:number;
+  id:number;
   private sub:any;
   city=this.cityservice.cities;
   currentcity:any;
 
   ngOnInit() {
+    
+//  Azeem code
+//     this.route.params.subscribe(params =>{
+//         this.id = +params['id'];
+//     })
+    
+//     this.cityservice.getcity(this.id).subscribe(
+    
+//     (result)=>{
+//       alert('result:' result);
+//     }
+//     )
+    
   this.sub= this.route.params.subscribe(params =>{
         this.pid = +params['id'];
         this.city.forEach((x)=>{
